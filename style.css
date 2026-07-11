@@ -89,6 +89,28 @@
     margin-bottom:35px;
     font-size:18px;
 }
+
+/* 
+      Speakers Section
+ */
+
+.speakers{
+    padding:80px;
+    background:#ffffff;
+}
+.speakers h2{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:50px;
+}
+.speaker-data{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+}
 body{
     font-family:'Inter',sans-serif;
     background: white;
