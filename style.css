@@ -1,4 +1,45 @@
+/*Navbar*/
 
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    background:white;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:35px;
+}
+.logo h2{
+    font-size:20px;
+}
+.nav-menu{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-menu a{
+    text-decoration:none;
+    color:#333;
+    font-size:15px;
+}
+
+.button{
+    text-decoration:none;
+    background:#2D5BFF;
+    color:white;
+    padding:12px 24px;
+    border-radius:6px;
+    font-weight:600;
+}
 *{
     margin:0;
     padding:0;
@@ -9,5 +50,5 @@
 
 body{
     font-family:'Inter',sans-serif;
-    background:#ffffff;
+    background: white;
 }
