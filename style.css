@@ -145,6 +145,108 @@
     font-weight:bold;
     margin:18px 20px 10px;
 }
+/* Pricing Section */
+
+.pricing{
+
+    padding:80px;
+
+    background:#f7f7f7;
+
+    text-align:center;
+}
+
+.pricing h2{
+
+    font-size:48px;
+
+    margin-bottom:15px;
+}
+
+.subtitle{
+
+    color:#666;
+
+    margin-bottom:50px;
+}
+.pricing-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+}
+.price-card{
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+}
+.price-card h3{
+
+    font-size:42px;
+
+    margin:20px 0;
+}
+.price-card ul{
+    margin: 25px 0;
+    padding-left: 20px;
+
+    flex-grow: 1;
+}
+
+.price-card li{
+
+    margin-bottom:12px;
+}
+
+/* Common button style */
+
+.price-btn{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Standard button */
+
+.standard-btn{
+    background: white;
+    color: #2D5BFF;
+    border: 2px solid #2D5BFF;
+}
+
+/* Pro button */
+
+.pro-btn{
+    background: #2D5BFF;
+    color: white;
+    border: none;
+}
+
+/* Team button */
+
+.team-btn{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+.featured{
+
+    background:#081B3A;
+
+    color:white;
+}
 body{
     font-family:'Inter',sans-serif;
     background: white;
