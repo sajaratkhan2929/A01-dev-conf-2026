@@ -83,7 +83,12 @@
     font-style:italic;
 }
 /* Body */
-
+.poster p{
+    width:650px;
+    line-height:1.6;
+    margin-bottom:35px;
+    font-size:18px;
+}
 body{
     font-family:'Inter',sans-serif;
     background: white;
