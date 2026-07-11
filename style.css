@@ -46,6 +46,42 @@
     box-sizing:border-box;
 }
 
+/* Hero Section */
+
+.hero{
+    height:700px;
+    background-image:url("./images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.poster{
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+}
+.poster h1{
+    font-size:70px;
+    margin-bottom:25px;
+}
+.poster em{
+    font-style:italic;
+}
 /* Body */
 
 body{
