@@ -39,7 +39,7 @@
     padding:12px 24px;
     border-radius:6px;
     font-weight:600;
-    font-size: 12px;
+    font-size: 13px;
 }
 *{
     margin:0;
@@ -97,7 +97,7 @@
 
 .speakers{
     padding:80px;
-    background:#ffffff;
+    background:white;
 }
 .speakers h2{
     text-align:center;
@@ -152,7 +152,7 @@
 
     padding:60px;
 
-    background:#f7f7f7;
+    background:white;
 
     text-align:center;
 }
@@ -253,7 +253,7 @@
 
     background:#081B3A;
 
-    color:#c2bfbf;
+    color:#fffbfb;
 }
 .featured h4{
     color:#3d65f5;
@@ -299,12 +299,12 @@ body{
 
 .why-attend h2{
     font-size: 46px;
-    color: #042c8b;
+    color: #090cac;
     margin-bottom: 15px;
 }
 
 .why-subtitle{
-    color: #6B7280;
+    color: #3c3d3e;
     font-size: 16px;
     margin-bottom: 50px;
 }
@@ -316,7 +316,7 @@ body{
 }
 
 .why-card{
-    background: white;
+    background: rgb(235, 237, 253);
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     padding: 30px;
@@ -325,13 +325,61 @@ body{
 }
 
 .why-card h3{
-    color: #053bb0;
+    color: #090cac;
     margin-bottom: 15px;
     font-size: 24px;
 }
 
 .why-card p{
-    color: #555;
+    color: #333333;
     line-height: 1.7;
     font-size: 15px;
+}
+/* last button */
+.why-btn{
+    display: inline-block;
+    padding: 14px 35px;
+    background:#090cac;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    font-size: 15px;
+}
+
+.why-btn:hover{
+    background:#5d5d78;
+}
+.button-cont{
+    text-align: center;
+    margin-top: 50px;
+}
+/* the statistics part */
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.more{
+    text-align: center;
+}
+
+.more h3{
+    font-size: 42px;
+    color: #090cac;
+    margin-bottom: 8px;
+}
+
+.more p{
+    color: #666;
+    margin: 0;
+}
+.stats-line{
+    width: 100%;
+    margin: 60px auto 40px;
+    border: none;
+    border-top: 2px solid #090cac;
 }
