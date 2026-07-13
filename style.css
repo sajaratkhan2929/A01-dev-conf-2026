@@ -77,7 +77,7 @@
     color:white;
 }
 .poster h1{
-    font-size:70px;
+    font-size:60px;
     margin-bottom:25px;
 }
 .poster em{
@@ -85,10 +85,16 @@
 }
 /* Body */
 .poster p{
-    width:650px;
-    line-height:1.6;
-    margin-bottom:35px;
+    width:670px;
+    height: 1.1em;
+    margin: bottom 60px;
     font-size:18px;
+    color:rgba(255, 255, 255, 0.847)
+}
+.poster .button{
+    width: 160px;
+    display: inline-block;
+    margin-top: 350px; 
 }
 
 /* 
@@ -253,10 +259,10 @@
 
     background:#081B3A;
 
-    color:#fffbfb;
+    color:rgba(255, 255, 255, 0.687);
 }
 .featured h4{
-    color:#3d65f5;
+    color:#7492ff;
     font-size:14px;
     font-weight:600;
     letter-spacing:1px;
@@ -272,14 +278,17 @@
     border-top: 1px solid #e5e7eb;
     margin: 20px 0;
 }
+.price-card li::marker{
+    color: #194afc;
+}
 .featured li::marker{
-    color: #4d72f6;
+    color: #60A5FA;
 }
 .featured h4{
-    color: #84c1f3;
+    color: #76c1ff;
 }
 .featured h3{
-    color: #ffffff;
+    color: white
 }
 .featured hr{
     border-top: 1px solid rgba(255, 255, 255, 0.15);
@@ -384,15 +393,13 @@ body{
     border-top: 2px solid #090cac;
 }
 /* Footer part */
-
-
 footer{
     width: 100%;
     background: #0B1D39;
     padding: 30px 60px;
     box-sizing: border-box;
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .footer-top{

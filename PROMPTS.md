@@ -1,0 +1,6 @@
+Prompt 01: Create a beginner friendly "DevConf 2026" section for a developer conference web page using only HTML and CSS. Including a heading, subtitle with highlighting workshops, and the design should be clean, modern, and with a blue and white conference theme.
+Prompt 02: Improve the "Why Attend DevConf 2026?" section by adding a statistics row with the number of attendees, speakers, workshops, and conference days. Include a centered "Reserve Your Seat" button below the statistics while keeping the design simple and beginner friendly.
+Prompt 03: Style the section to match the rest of the DevConf 2026 web page. Use spacing, rounded cards, a light blue background, blue headings, and a responsive two column layout using only HTML and CSS.
+Prompt 04: Suggest me some suitable lines for these 4 sections to make the page look more professional.
+Prompt 05: Write short and simple descriptions for each feature card (Learn, Connect, Build, and Grow). Keep the text professional, easy to read, and relevant to a developer conference.
+Prompt 06: Review the "Why Attend DevConf 2026?" section and suggest me small design improvements to make it look more professional.
