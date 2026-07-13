@@ -92,9 +92,10 @@
     color:rgba(255, 255, 255, 0.847)
 }
 .poster .button{
-    width: 160px;
+    width: 200px;
     display: inline-block;
-    margin-top: 350px; 
+    margin-top: 350px;
+    font-size: 17px; 
 }
 
 /* 
